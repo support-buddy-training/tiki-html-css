@@ -1,0 +1,42 @@
+:root {
+    --primary-color: rgb(26, 148, 255);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
+}
+
+*{
+   box-sizing: inherit; 
+   margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    background-color: #efefef;
+}
+
+a {
+    display: block;
+    font-size: 11px;
+    line-height: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}

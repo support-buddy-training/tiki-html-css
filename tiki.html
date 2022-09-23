@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/tiki.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Tiki Demo</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header" style="background-color: rgb(26, 148, 255); margin: 0; padding: 0;">
+            <div class="grid wide">
+                <div class="Middle__wrap">
+                    <div class="Middle__left">
+                        <div class="logomenu">
+                            <img class="logo-img" src="./assets/img/logo/logotiki.png" alt="">
+                        </div>
+    
+                        <div class="header-search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+
+                                <!-- Search History -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading"> Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a href="" class="item">
+                                                <img src="./assets/img/icon/searchicon1.png" alt="" class="header__search-btn-icon seacrh-icon">Tai nghe bluetooth
+                                            </a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="" class="item">
+                                                <img src="./assets/img/icon/searchicon1.png" alt="" class="header__search-btn-icon seacrh-icon">Bánh trung thu
+                                            </a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="" class="item">
+                                                <img src="./assets/img/icon/searchicon1.png" alt="" class="header__search-btn-icon seacrh-icon">Iphone 13
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="border-top" style="border-top: 1px solid rgb(225, 225, 225); margin-top: 6px;"></div>
+
+                                    <div class="bottom-widgets">
+                                        <div class="hot-keyword">
+                                            <h3 class="header__search-history-heading header__hot-keyword-heading" style="display: flex;">
+                                                <img src="./assets/img/icon/hotkeyicon.png" alt="" class="trending-icon header__search-btn-icon seacrh-icon">
+                                                Tìm kiếm phổ biến nhất
+                                            </h3>
+                                            <ul class="header__search-history-list inner">
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro1.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Máy tăm nước</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro2.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Quần nam</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro3.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Dép nam</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro4.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Bột giặt omo</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro5.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Dép nữ</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header__search-history-item trending-product">
+                                                    <a href="" class="item">
+                                                        <img src="./assets/img/topsearchpro/hotpro6.jpg" alt="" class="thumb">
+                                                        <span class="trending-title">Mỹ phẩm</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="border-top" style="border-top: 1px solid rgb(225, 225, 225); margin-top: 8px;"></div>
+
+                                        <div class="hot-category">
+                                            <h3 class="header__search-history-heading header__hot-category-heading">
+                                                Danh mục nổi bật
+                                            </h3>
+                                            <ul class="header__search-history-list category-inner">
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro1.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Đồ Chơi - Mẹ & Bé</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro2.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Ngon</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro3.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Điện Thoại - Máy Tính Bảng</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro4.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Làm Đẹp - Sức Khỏe</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro5.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Điện Gia Dụng</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro6.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Thời trang nữ</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro7.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Thời trang nam</span>
+                                                    </a>
+                                                </li>
+                                                <li class="category-product">
+                                                    <a href="" class="category-item">
+                                                        <div class="thumb-wrap">
+                                                            <div class="thumb">
+                                                                 <img src="./assets/img/categorypro/categorypro8.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <span class="category-title">Giày - Dép nữ</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="header__search-btn">
+                                <img src="./assets/img/icon/searchicon.png" alt="" class="header__search-btn-icon">
+                                Tìm kiếm
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="user">
+                        <div class="header-acount">
+                            <img src="./assets/img/icon/profileicon.png" alt="" class="profile-icon">
+                            <span class="profile-text">
+                                <span class="sign-in">
+                                    Đăng nhập / Đăng ký
+                                </span>
+                                
+                                <span class="acount-label">
+                                    <span>Tài khoản</span>
+                                    <img src="./assets/img/icon/arrowicon.png" alt="" class="arrow-icon">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="header-cart">
+                            <div class="cartItemInner">
+                                <div class="cart-wrapper">
+                                    <img src="./assets/img/icon/carticon.png" alt="" class="cart-icon">
+                                    <span class="cart-noti">0</span>
+                                </div>
+                                <div class="cart-text">
+                                    Giỏ Hàng
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Bottom__Root">
+                    <div class="root-container">
+                        <a href="#">
+                            <img src="./assets/img/logo/logotiki1.png" alt="" style="height: 1.8rem; width: 12.9rem;">
+                        </a>
+
+                        <div class="header__quicklink-container">
+                            <a href="" class="quicklink-container--item">Trái cây</a>
+                            <a href="" class="quicklink-container--item">Thịt, trứng</a>
+                            <a href="" class="quicklink-container--item">Rau củ quả</a>
+                            <a href="" class="quicklink-container--item">Sữa, bơ, phô mai</a>
+                            <a href="" class="quicklink-container--item">Hải sản</a>
+                            <a href="" class="quicklink-container--item">Gạo, mì ăn liền</a>
+                            <a href="" class="quicklink-container--item">Đồ uống, bia, rượu</a>
+                            <a href="" class="quicklink-container--item">Bánh kẹo</a>
+                        </div>
+
+                        <div class="seller">
+                            <a href="" class="tiki-seller">
+                                <img src="./assets/img/icon/icon-seller.svg" alt="" class="seller-icon">
+                                <span class="seller-text">
+                                    Bán hàng cùng Tiki
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app__container">
+            <!-- Category Top -->
+            <div class="category-top">
+                <div class="container__category-top">
+                    <div class="category-top__style">
+                        <div class="content__category-top">
+                            <div class="cateslide">
+                                <a href="">
+                                    <div class="catename">
+                                        Thịt, Rau củ
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Bách Bóa
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Nhà Cửa
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Điện Tử
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Thiết Bị Số
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Điện Thoại
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Mẹ & Bé
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Làm Đẹp
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Gia Dụng
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Thời Trang Nữ
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Thời Trang Nam
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Giày Nữ
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="catename">
+                                        Túi Nữ
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <span class="backicon">
+                                <img src="./assets/img/icon/backicon.png" alt="">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home Banner Top -->
+            <div class="grid wide">
+                <div class="banner-top">
+                    <div class="container__banner-top">
+                        <div class="banner-top__right">
+                            <a href="">
+                                <img src="./assets/img/bannertop/right1.webp" alt="">
+                            </a>
+
+                            <a href="" class="back-left">
+                                <img src="./assets/img/icon/backbanner.png" alt="">
+                            </a>
+
+                            <a href="" class="back-right">
+                                <img src="./assets/img/icon/backbanner.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="banner-top__left">
+                            <a href="">
+                                <img src="./assets/img/bannertop/left.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home Deadl and Reward -->
+            <div class="grid wide">
+                <div class="deal-reward">
+                    <div class="container__deal-reward">
+                        <div class="deal">
+                            <div class="header-deal">
+                                <div class="header-deal__left">
+                                    <div>
+                                        <img src="./assets/img/flashdeal/giasoc.svg" alt="">
+                                        <img src="./assets/img/flashdeal/dealFlashIcon.svg" alt="">
+                                        <img src="./assets/img/flashdeal/homnay.svg" alt="">
+                                    </div>
+
+                                    <div class="countdowntime">
+                                        <span>00</span>
+                                        :
+                                        <span>50</span>
+                                        :
+                                        <span>20</span>
+                                    </div>
+                                </div>
+
+                                <div class="header-deal__navigation">
+                                    <a href="">Xem thêm</a>
+                                </div>
+                            </div>
+
+                            <div class="body-deal">
+                                <div class="deal-wrap">
+                                    <div class="home-deal">
+                                        <a href="" class="deal-back__left">
+                                            <span class="back-deal__icon">
+                                                <img src="./assets/img/icon/nextArrowdeal.png" alt="">
+                                            </span>
+                                        </a>
+                                        
+                                        <div class="deal-list">
+                                            <div class="deal-pro">
+                                                <div class="deal-pro__item">
+                                                    <div class="deal-pro__image">
+                                                        <img src="./assets/img/dealpro/dealpro1.webp" alt="">
+                                                    </div>
+                                                    <div class="deal-price">
+                                                        <span  class="price">99.000 đ</span>
+                                                        <span  class="price-discount">-80%</span>
+                                                    </div>
+                                                    <div class="deal-qt">
+                                                        <div class="deal-progress"></div>
+                                                        <span>Sắp hết bám</span>
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+
+                                            <div class="deal-pro">
+                                                <div class="deal-pro__item">
+                                                    <div class="deal-pro__image">
+                                                        <img src="./assets/img/dealpro/dealpro1.webp" alt="">
+                                                    </div>
+                                                    <div class="deal-price">
+                                                        <span  class="price">99.000 đ</span>
+                                                        <span  class="price-discount">-80%</span>
+                                                    </div>
+                                                    <div class="deal-qt">
+                                                        <div class="deal-progress"></div>
+                                                        <span>Sắp hết bám</span>
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+
+                                            <div class="deal-pro">
+                                                <div class="deal-pro__item">
+                                                    <div class="deal-pro__image">
+                                                        <img src="./assets/img/dealpro/dealpro1.webp" alt="">
+                                                    </div>
+                                                    <div class="deal-price">
+                                                        <span  class="price">99.000 đ</span>
+                                                        <span  class="price-discount">-80%</span>
+                                                    </div>
+                                                    <div class="deal-qt">
+                                                        <div class="deal-progress"></div>
+                                                        <span>Sắp hết bám</span>
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+
+                                            <div class="deal-pro">
+                                                <div class="deal-pro__item">
+                                                    <div class="deal-pro__image">
+                                                        <img src="./assets/img/dealpro/dealpro1.webp" alt="">
+                                                    </div>
+                                                    <div class="deal-price">
+                                                        <span  class="price">99.000 đ</span>
+                                                        <span  class="price-discount">-80%</span>
+                                                    </div>
+                                                    <div class="deal-qt">
+                                                        <div class="deal-progress"></div>
+                                                        <span>Sắp hết bám</span>
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+
+                                            <div class="deal-pro">
+                                                <div class="deal-pro__item">
+                                                    <div class="deal-pro__image">
+                                                        <img src="./assets/img/dealpro/dealpro1.webp" alt="">
+                                                    </div>
+                                                    <div class="deal-price">
+                                                        <span  class="price">99.000 đ</span>
+                                                        <span  class="price-discount">-80%</span>
+                                                    </div>
+                                                    <div class="deal-qt">
+                                                        <div class="deal-progress"></div>
+                                                        <span>Sắp hết bám</span>
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+                                            
+                                            
+                                        </div>
+
+                                        <a href="" class="deal-back__right">
+                                            <span class="back-deal__icon">
+                                                <img src="" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reward">
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>
