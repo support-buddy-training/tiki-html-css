@@ -814,7 +814,7 @@ header {
     overflow: hidden;
 }
 
-.reward a {
+.reward a img {
     width: 100%;
-    position: relative;
+    height: 100%;
 }
