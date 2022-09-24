@@ -536,7 +536,6 @@ header {
 
 .back-right img {
     width: 32px !important;
-    /* transform: rotate(180deg); */
     height: 56px !important;
     position: relative;
     right: -10px;
@@ -622,6 +621,7 @@ header {
 }
 
 .header-deal__navigation a {
+    text-transform: capitalize;
     font-size: 16px;
     line-height: 24px;
     color: rgb(11, 116, 229);
@@ -913,3 +913,171 @@ header {
     width: 295px;
     height: 150px;
 }
+
+/* Brand static widget */
+
+.brand-static-widget__wrapper {
+    background-color: rgb(255, 255, 255);
+    margin: 16px 0px 0px;
+    padding-bottom: 13px;
+}
+
+.brand-static-widget__header {
+    display: flex;
+    height: 60px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 28px;
+    color: rgb(36, 36, 36);
+}
+
+.brand-static-widget__title {
+    display: flex;
+    font-size: 20px;
+}
+
+.brand-static-widget__icon {
+    width: 24px;
+    height: 24px;
+    margin: auto 0px;
+}
+
+.brand-static-widget__text {
+    margin: auto 0px auto 8px;
+    text-transform: capitalize;
+}
+
+.see-more {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(11, 116, 229);
+}
+
+.brand-static-widget__main {
+    margin: 15px 15px;
+    display: flex;
+}
+
+.brand-static-widget__mainwrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.brand-static-widget__right {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 49.2%;
+    height: 222px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.brand-static-widget__left {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 49.2%;
+    height: 222px;
+    background: rgb(148, 191, 255);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.brand-static-widget__right img,
+.brand-static-widget__left img {
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.brand-static-widget__card {
+    width: 100%;
+    height: 284px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.body-brand-static-widget__card {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.brand-static-widget__card-wrap,
+.brand-static-widget__card-home{
+    position: relative;
+    height: 100%;
+
+}
+
+.brand-static-widget__card-list {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+    padding: 0px 6px;
+}
+
+.brand-static-widget__card-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    padding: 8px;
+}
+
+.brand-static-widget__card-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 284px;
+    padding: 2px;
+}
+
+.brand-static-widget__card-img {
+    position: relative;
+    width: 100%;
+    height: 284px;
+}
+
+.brand-static-widget__card-img img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 8px;
+    width: 200px;
+    height: 284px;
+}
+
+.brand-static-widget__card-title {
+    position: absolute;
+    color: rgb(26, 148, 255);
+    bottom: 8px;
+    margin: 0px 0px 10px;
+    font-size: 14px;
+}
+
+
+
