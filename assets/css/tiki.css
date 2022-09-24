@@ -1079,5 +1079,67 @@ header {
     font-size: 14px;
 }
 
+/* Fetured Category  */
+
+.category-pro__container {
+    background: white;
+    margin: 16px 0px 0px;
+    border-radius: 4px;
+}
+
+.category-pro__header {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    font-weight: initial;
+}
+
+.category-pro__body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.category-pro__wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.category-pro {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    gap: 12px 8px;
+}
+
+.category-pro__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(36, 36, 36);
+}
+.category-pro__img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+.category-pro__item h3 {
+    text-align: center;
+    margin: 12px 0px 16px;
+    padding: 0px 12px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: initial;
+}
+
+
+
 
 
