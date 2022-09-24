@@ -890,3 +890,26 @@ header {
     display: -webkit-box;
     text-overflow: ellipsis;
 }
+
+/* Home banner primary container */
+.home-banner-primary__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.home-banner-primary__item {
+    width: 295px;
+    height: 150px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.home-banner-primary__item img {
+    width: 295px;
+    height: 150px;
+}
