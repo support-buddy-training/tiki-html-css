@@ -848,3 +848,45 @@ header {
     height: 100%;
     border-radius: 6px;
 }
+
+/* Home quicklink tab */
+.home-quicklinks-tab__container {
+
+}
+
+.home-quicklinks-tab__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 16px 0px;
+    padding: 16px 0px;
+    background: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.home-quicklinks-tab__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 104px;
+    flex-shrink: 0;
+}
+
+.home-quicklinks-tab__item img {
+    width: 48px;
+    height: 48px;
+}
+
+.home-quicklinks-tab__item > span {
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    color: rgb(36, 36, 36);
+    width: 80px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
