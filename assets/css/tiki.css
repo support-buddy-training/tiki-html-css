@@ -818,3 +818,33 @@ header {
     width: 100%;
     height: 100%;
 }
+
+/* Home - brand */
+.home-brand__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.side-brand {
+    width: 19%;
+    height: 100%;
+}
+
+.side-brand img {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.center-brand {
+    width: 60%;
+    height: 100%;
+}
+
+.center-brand img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
