@@ -1139,6 +1139,12 @@ header {
     font-weight: initial;
 }
 
+/* Home banner middle */
+.home-banner-middle__item,
+.home-banner-middle__item img {
+    width: 395px;
+}
+
 /*  Infinite Scroll */
 .infinite-scroll__container {
     background: rgb(245, 245, 250);
@@ -1209,8 +1215,6 @@ header {
 .tab-active .tab-text {
     color: rgb(13, 92, 182);
 }
-
-/* Infinite Scroll */
 
 .infinite-tab__content {
     display: flex;
