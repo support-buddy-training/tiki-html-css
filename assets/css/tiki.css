@@ -879,7 +879,7 @@ header {
 }
 
 .home-quicklinks-tab__item > span {
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -890,6 +890,7 @@ header {
     display: -webkit-box;
     text-overflow: ellipsis;
 }
+<<<<<<< HEAD
 
 /* Home banner primary container */
 .home-banner-primary__wrapper {
@@ -913,3 +914,5 @@ header {
     width: 295px;
     height: 150px;
 }
+=======
+>>>>>>> b4049da3aac82ff7af00976497a38a1956557acc
