@@ -879,7 +879,7 @@ header {
 }
 
 .home-quicklinks-tab__item > span {
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -890,6 +890,7 @@ header {
     display: -webkit-box;
     text-overflow: ellipsis;
 }
+<<<<<<< HEAD
 
 /* Home banner primary container */
 .home-banner-primary__wrapper {
@@ -913,6 +914,7 @@ header {
     width: 295px;
     height: 150px;
 }
+<<<<<<< HEAD
 
 /* Brand static widget */
 
@@ -1077,6 +1079,12 @@ header {
     bottom: 8px;
     margin: 0px 0px 10px;
     font-size: 14px;
+}
+
+/* Home banner middle */
+.home-banner-middle__item,
+.home-banner-middle__item img {
+    width: 395px;
 }
 
 /* Fetured Category  */
@@ -1348,3 +1356,7 @@ header {
     padding-left: 6px;
 }
 
+=======
+=======
+>>>>>>> b4049da3aac82ff7af00976497a38a1956557acc
+>>>>>>> 03f005c98cf69f6c2abbabf90bf3df707f1c494b
