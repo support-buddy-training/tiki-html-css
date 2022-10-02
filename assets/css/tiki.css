@@ -879,7 +879,7 @@ header {
 }
 
 .home-quicklinks-tab__item > span {
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -1079,6 +1079,12 @@ header {
     font-size: 14px;
 }
 
+/* Home banner middle */
+.home-banner-middle__item,
+.home-banner-middle__item img {
+    width: 395px;
+}
+
 /* Fetured Category  */
 
 .category-pro__container {
@@ -1139,7 +1145,213 @@ header {
     font-weight: initial;
 }
 
+/* Home banner middle */
+.home-banner-middle__item,
+.home-banner-middle__item img {
+    width: 395px;
+}
 
+/*  Infinite Scroll */
+.infinite-scroll__container {
+    background: rgb(245, 245, 250);
+    margin-top: 16px;
+    border-radius: 4px;
+}
 
+.infinite-scroll__header {
+    display: flex;
+    background: rgb(245, 245, 250);
+    border-radius: 4px 4px 0px 0px;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.infinite-scroll__title {
+    height: 48px;
+    display: flex;
+    padding: 10px 16px;
+    background-color: white;
+    flex: 1 1 0%;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    font-weight: initial;
+}
+
+.infinite-scroll__tab {
+    display: grid;
+    margin-bottom: 4px;
+    overflow: auto;
+    position: relative;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 4px;
+}
+
+.tab {
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    min-height: 78px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.tab-active {
+    border: 1px solid rgb(13, 92, 182);
+}
+
+.tab-text {
+    padding-top: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    overflow: hidden;
+    word-break: break-word;
+    color: rgb(120, 120, 120);
+}
+
+.tab-active .tab-text {
+    color: rgb(13, 92, 182);
+}
+
+.infinite-tab__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 0px 0px 16px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(242, 242, 242);
+}
+
+.content .content-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.infinite-pro {
+    width: calc(100%/6);
+    height: 100%;
+}
+
+.infinite-pro-item {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.infinite-pro-item:hover {
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    z-index: 1;
+}
+
+.infinite-item {
+    display: flex;
+    padding: 12px;
+    color: rgb(56, 56, 61);
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail {
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.thumbnail-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.thumbnail-wrapper img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 20px 0 2px;
+}
+
+.ad {
+    background: rgb(242, 242, 242);
+    line-height: 12px;
+    display: inline-block;
+    padding: 0px 4px;
+    font-size: 9px;
+    margin: 0px 4px 0px 0px;
+    position: relative;
+    top: -1px;
+    border-radius: 2px;
+}
+
+.name > h3 {
+    font-size: 13px;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+    word-break: break-word;
+    font-weight: initial;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+}
+
+.full-star {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.star-item > img{
+    width: 14px;
+    height: 14px;
+}
+
+.star-text {
+    display: flex;
+    align-items: center;
+    color: rgb(128, 128, 137);
+    line-height: normal;
+    font-size: 11px;
+    padding-left: 4px;
+}
+
+.star-title {
+    padding-left: 6px;
+}
 
 
