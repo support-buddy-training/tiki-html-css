@@ -890,7 +890,6 @@ header {
     display: -webkit-box;
     text-overflow: ellipsis;
 }
-<<<<<<< HEAD
 
 /* Home banner primary container */
 .home-banner-primary__wrapper {
@@ -914,5 +913,3 @@ header {
     width: 295px;
     height: 150px;
 }
-=======
->>>>>>> b4049da3aac82ff7af00976497a38a1956557acc
