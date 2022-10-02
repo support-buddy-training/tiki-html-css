@@ -1081,6 +1081,12 @@ header {
     font-size: 14px;
 }
 
+/* Home banner middle */
+.home-banner-middle__item,
+.home-banner-middle__item img {
+    width: 395px;
+}
+
 /* Fetured Category  */
 
 .category-pro__container {
